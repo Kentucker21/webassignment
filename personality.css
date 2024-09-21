@@ -1,0 +1,150 @@
+body{
+    background-color: #bcbcbc;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+   
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    padding: 0.7em;
+    margin: 0 auto;
+    background-color: rgb(146, 146, 146);
+}
+   
+  
+
+
+nav li{
+   /* color: #397160;*/
+    color: orangered;
+    font-weight: bold;
+    list-style: none;
+    font-size: 1.2em;
+    align-self: center;
+   
+}
+
+.nav-item{
+   
+    display: inline-block;
+}
+.nav-item::after{
+    content: '';
+    background-color: #fff;
+    height:5px;
+    display:block;
+    width: 0;
+    transition:width 0.3s;
+}
+.nav-item:hover::after{
+    width: 100%;
+    transition:width 0.3s;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5em;
+    margin-right: 6em;
+    position: relative;
+    
+}
+a{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color:inherit;
+}
+
+
+.page-heading{
+    text-align: center;
+    font-size: 3em;
+}
+.who{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1.3em;
+    width: 60%;
+    
+}
+h2{
+    font-size: 2em;
+    color: #fe5001;
+}
+
+h1{
+    color: #fe5001;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    
+}
+.images img{
+    width: 400px;
+    clip-path: circle();
+    margin-right: 1em;
+}
+
+audio{
+    margin: 0 auto;
+   display: flex;
+   width: 40%;
+}
+.rolemodel img{
+ width: 500px;
+ margin: 0 auto;
+}
+
+.rolemodel h2{
+    text-align: center;
+}
+.rolemodel p{
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 0.5em;
+    
+}
+.role-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.test h2{
+text-align: center;
+}
+.test p{
+    margin: 0 auto;
+    margin-top: 0.5em;
+}
+.person-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.person-cont img{
+   
+    width: 1200px;
+    margin-top: 0.5em;
+}
+
+.hobbies h2{
+    text-align: center;
+}
+.hobbies p{
+    margin: 0 auto;
+}
+.school h2{
+    text-align: center;
+}
+.school p{
+    margin: 0 auto;
+}
